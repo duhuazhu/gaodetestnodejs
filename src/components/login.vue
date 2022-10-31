@@ -115,7 +115,6 @@ export default {
     // 注册
     async register() {
       if (
-        this.form.username != "" &&
         this.form.useremail != "" &&
         this.form.userpwd != ""
       ) {
